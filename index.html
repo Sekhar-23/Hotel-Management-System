@@ -39,16 +39,18 @@
         <div class="logo">
             <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
             <p>Hotel Vihari</p>
+            <form class="" id="" action="index.php" method="POST">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Username" placeholder=" ">
+                        <label for="Username">Username</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" name="Email" placeholder=" ">
+                        <label for="Email">Email</label>
+                    </div>
+                    <button type="submit" name="user_signup_submit" class="auth_btn">Start</button>
         </div>           
     </section>
-    <div>
-        <button class="btn btn-primary" onclick="goto()">Click Me</button>
-    </div>
-    <script>
-        function goto(){
-        header(Location:"index.php");
-               }
-    </script>
 </body>
 </html>
 
